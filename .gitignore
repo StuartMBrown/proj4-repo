@@ -1,6 +1,7 @@
 training_tweets.csv
 cleaned_training_tweets.csv
 text_blob_sentiment.csv
+vader_sentiment.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
