@@ -4,90 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sentiment Analysis</title>
-    <!-- Include any necessary stylesheets or libraries here -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-image: url('https://assets-global.website-files.com/5f0a377561756321899b9e96/64f10d45cd8aecc9550798bd_Does%20Twitter%E2%80%99s%20Free%20Speech%20Mission%20Include%20Accessibility%20for%20All%3F.jpg');
-        
-            background-size: 100% 100%; /* Adjusted background size */
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Adding transparency */
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-            color: #007bff;
-        }
-        label {
-            font-weight: bold;
-        }
-        .form-control {
-            border-radius: 4px;
-        }
-        button.btn-primary {
-            border-radius: 4px;
-        }
-        #visualization {
-            margin-top: 30px;
-        }
-        #sentimentKeywords {
-            margin-top: 50px;
-        }
-        #sentimentKeywords h2 {
-            color: #007bff;
-            margin-top: 20px;
-        }
-        #sentimentKeywords #sentimentOutput, #sentimentKeywords #keywordsOutput {
-            margin-top: 10px;
-        }
-    </style>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Sentiment Analysis</h1>
+        <h1>Twitter Sentiment Analysis</h1>
         
-        <!-- Form for submitting tweet -->
-        <form id="tweetForm">
-            <div class="form-group">
-                <label for="tweet">Enter your tweet:</label>
-                <textarea class="form-control" id="tweet" name="tweet" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Analyze Sentiment and Extract Keywords</button>
+        <!-- Form for submitting sentence -->
+        <form action="/analyze" method="post">
+            <label for="sentence">Enter a sentence:</label><br>
+            <input type="text" id="sentence" name="sentence" required><br><br>
+            <button type="submit">Analyze</button>
         </form>
-
-        <!-- Visualization of dataset -->
-        <div id="visualization">
-            <!-- Include any visualization charts here -->
-            <!-- Example: Chart.js charts -->
-        </div>
-
-        <!-- Display sentiment and keywords -->
-        <div id="sentimentKeywords">
-            <h2>Classification Output:</h2>
-            <div id="sentimentOutput">
-                <!-- Output sentiment here -->
-            </div>
-            <h2>Keywords:</h2>
-            <div id="keywordsOutput">
-                <!-- Output keywords here -->
-            </div>
-        </div>
     </div>
-
-    <!-- Include any necessary JavaScript files or libraries here -->
-  
-    <!-- Your custom JavaScript code for handling form submission, data processing, and updating UI -->
-    <script src="script.js"></script>
 </body>
 </html>
