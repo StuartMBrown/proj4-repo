@@ -11,7 +11,7 @@ Josh Soundarajan
 
 ## Table of Contents
 
-### roject Outline
+### Project Outline
 
 ### Why this dataset?
 
