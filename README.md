@@ -9,20 +9,20 @@ Matt Hill
 Nathan Kaspar
 Josh Soundarajan
 
-##Table of Contents
+## Table of Contents
 
-###Project Outline
+### roject Outline
 
-###Why this dataset?
+### Why this dataset?
 
-###Findings summary
+### Findings summary
 
-###Datasets/resources
-
-
+### Datasets/resources
 
 
-#Project Outline:
+
+
+# Project Outline:
 
 A machine learning evaluation of the emotion, positive or negative, of 1.6 million tweets from 2009. Our model will learn the emotional connotation of various keywords identified by Bag of Words and BERT.
 
@@ -35,7 +35,7 @@ We then ran the model through train-test split to see if it could identify the s
 We finished by evaluating all three models for precision, and compared the original CSV's classification reports to those of a post-cleaning CSV.
 
 
-#Why this dataset?
+# Why this dataset?
 
 Training an AI with data of this magnitude will not only allow other AIs to recognize the emotional charge of certain words, but also to understand if they may be used in unorthodox contexts. At this size, takeaways would be meaningful but also not overdemanding in terms of resources and time. This provides more empathetic and context aware interactions between AI and humans, and makes AI both more ethical and suitable for wide deployment.
 
@@ -50,7 +50,7 @@ We expect that the following fields will find our efforts especially helpful:
 
 
 
-#Findings summary 
+# Findings summary 
 
 Uncleaned VaderSentiment
 
@@ -98,7 +98,7 @@ F1 Score: 0.8533827640080314
 
 
 
-#Datasets/Resources
+# Datasets/Resources
 
 Kaggle: https://www.kaggle.com/datasets/kazanova/sentiment140
 
