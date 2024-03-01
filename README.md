@@ -50,56 +50,56 @@ We expect that the following fields will find our efforts especially helpful:
 
 
 
-# Findings summary 
+## Findings summary 
 
 Uncleaned VaderSentiment
 
-Accuracy Score:  0.8470225
+* Accuracy Score:  0.8470225
 
-Precision: 0.8507783927062014
+* Precision: 0.8507783927062014
 
-Recall: 0.8470225
+* Recall: 0.8470225
 
-F1 Score: 0.8459390728898293.
+* F1 Score: 0.8459390728898293.
 
 
 
 
 Uncleaned TextBlobs
 
-Accuracy Score:  0.856185
+* Accuracy Score:  0.856185
 
-Precision: 0.8598559899324191
+* Precision: 0.8598559899324191
 
-Recall: 0.856185
+* Recall: 0.856185
 
-F1 Score: 0.8533827640080314
+* F1 Score: 0.8533827640080314
 
 
 
 
 Cleaned VaderSentiment
 
-Accuracy Score:  0.8470225
+* Accuracy Score:  0.8470225
 
-Precision: 0.8507783927062014
+* Precision: 0.8507783927062014
 
-Recall: 0.8470225
+* Recall: 0.8470225
 
-F1 Score: 0.8459390728898293
+* F1 Score: 0.8459390728898293
 
 
 
 
 Cleaned TextBlobs
 
-Accuracy Score:  0.856185
+* Accuracy Score:  0.856185
 
-Precision: 0.8598559899324191
+* Precision: 0.8598559899324191
 
-Recall: 0.856185
+* Recall: 0.856185
 
-F1 Score: 0.8533827640080314
+* F1 Score: 0.8533827640080314
 
 
 
