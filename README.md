@@ -10,15 +10,20 @@ Nathan Kaspar
 Josh Soundarajan
 
 ##Table of Contents
+
 ###Project Outline
+
 ###Why this dataset?
+
 ###Findings summary
+
 ###Datasets/resources
 
 
 
 
 #Project Outline:
+
 A machine learning evaluation of the emotion, positive or negative, of 1.6 million tweets from 2009. Our model will learn the emotional connotation of various keywords identified by Bag of Words and BERT.
 
 
@@ -31,6 +36,7 @@ We finished by evaluating all three models for precision, and compared the origi
 
 
 #Why this dataset?
+
 Training an AI with data of this magnitude will not only allow other AIs to recognize the emotional charge of certain words, but also to understand if they may be used in unorthodox contexts. At this size, takeaways would be meaningful but also not overdemanding in terms of resources and time. This provides more empathetic and context aware interactions between AI and humans, and makes AI both more ethical and suitable for wide deployment.
 
 
@@ -45,40 +51,62 @@ We expect that the following fields will find our efforts especially helpful:
 
 
 #Findings summary 
+
 Uncleaned VaderSentiment
+
 Accuracy Score:  0.8470225
+
 Precision: 0.8507783927062014
+
 Recall: 0.8470225
+
 F1 Score: 0.8459390728898293
 
 
 Uncleaned TextBlobs
+
 Accuracy Score:  0.856185
+
 Precision: 0.8598559899324191
+
 Recall: 0.856185
+
 F1 Score: 0.8533827640080314
 
 
 Cleaned VaderSentiment
+
 Accuracy Score:  0.8470225
+
 Precision: 0.8507783927062014
+
 Recall: 0.8470225
+
 F1 Score: 0.8459390728898293
 
 
 Cleaned TextBlobs
+
 Accuracy Score:  0.856185
+
 Precision: 0.8598559899324191
+
 Recall: 0.856185
+
 F1 Score: 0.8533827640080314
 
 
 
 
 #Datasets/Resources
+
 Kaggle: https://www.kaggle.com/datasets/kazanova/sentiment140
+
 Twitter Search: https://twitter.com/home
+
 TextBlob: https://textblob.readthedocs.io/en/dev/authors.html
+
 VaderSentiment authors: https://github.com/cjhutto/vaderSentiment
+
 VaderSentiment assistance: https://www.analyticsvidhya.com/blog/2022/07/sentiment-analysis-using-python/
 
